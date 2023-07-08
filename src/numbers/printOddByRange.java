@@ -4,7 +4,7 @@ package numbers;
 
 import java.util.Scanner;
 
-public class printOddByRange2 {
+public class printOddByRange {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

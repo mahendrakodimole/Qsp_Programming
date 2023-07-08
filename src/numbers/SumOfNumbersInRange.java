@@ -13,13 +13,13 @@ public class SumOfNumbersInRange {
 		System.out.println("Enter a number final value");
 		int fR=sc.nextInt();
 		
-		int product=1;
+		int sum=0;
 		
 		for(int i=iR;i<=fR;i++) {
-			product*=i;
+			sum+=i;
 		}
 		
-		System.out.println("Product of all numbers in range of "+iR+" & "+fR+" (inclusive) is :"+product);
+		System.out.println("Sum of all numbers in range of "+iR+" & "+fR+" (inclusive) is :"+sum);
 		
 	}
 
