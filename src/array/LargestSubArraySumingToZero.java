@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	for(int i=0;i<n.length;i++) {
 		int sum=0;
 		for(int j=i;j<n.length;j++) {
-			System.out.print(n[j]+" ");
+//			System.out.print(n[j]+" ");
 			sum+=n[j];
 			length=(j-i)+1;
 			
