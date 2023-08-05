@@ -4,11 +4,15 @@ public class LongestPrefixFromGivenArrayOfStrings {
 public static void main(String[] args) {
 	String arr[]= {"Atimi","AtimiIndia","AtimiCanada","AtimiBangalore"};
 	String arr1[]= {"hello","world"};
+	String arr2[]= {"Mahendra","MahendraKodimole"};
 
 	String longestPrefix=getLongestPrefix(arr);
 	System.out.println(longestPrefix.length()>0?longestPrefix:-1);
 	
 	 longestPrefix=getLongestPrefix(arr1);
+	System.out.println(longestPrefix.length()>0?longestPrefix:-1);
+	
+	longestPrefix=getLongestPrefix(arr2);
 	System.out.println(longestPrefix.length()>0?longestPrefix:-1);
 }
 
